@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.DropArea = new System.Windows.Forms.Panel();
             this.DropAreaPicture = new System.Windows.Forms.PictureBox();
             this.FileListView = new System.Windows.Forms.ListView();
@@ -246,6 +247,7 @@
             this.Controls.Add(this.TextKey);
             this.Controls.Add(this.FileListView);
             this.Controls.Add(this.DropArea);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.Text = "Encryptor";
